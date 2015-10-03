@@ -1,0 +1,12 @@
+ErrorDocument 404 /404.php
+ErrorDocument 403 /forbidden.html
+DirectoryIndex index.html index.php index.htm parking-page.html
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^swaha\.me$
+RewriteRule ^([a-zA-z0-9]+)$ http://swaha.me/?u=$1 [L]
+
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|inc|bak)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>

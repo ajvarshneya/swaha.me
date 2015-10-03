@@ -1,0 +1,128 @@
+html {
+	height: 100%;
+	/*font-family: 'PT Sans', sans-serif;*/
+	/*font-family: "Source Sans Pro", "Lucida Grande", Verdana, sans;*/
+	font-family: 'Jura', sans-serif;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #003C80;
+	color: #fff;
+	/*background: linear-gradient(135deg, #1274a3 35%,#68ad74 100%);*/
+}
+
+input {
+	width: 250px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.0);
+    color: #fff;
+
+	font-family: 'Jura', sans-serif;
+    font-size:18px;
+
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:20px;
+    padding-right:20px;
+
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid white;
+ 
+ /*	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;*/
+}
+
+input:focus {
+    outline: none !important;
+
+    /*box-shadow: 0 0 10px #719ECE;*/
+}
+
+
+.centered {
+	width:290px;
+	height: 32px;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+}
+
+#title-container {
+	font-size: 28px;
+	position: absolute;
+	bottom: 120px;
+}
+
+#js-submit-url div {
+	display: block;
+}
+
+#js-submit-url label {
+	display: inline-block;
+}
+
+#new-url {
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	position: absolute;
+	top: -100px;
+}
+
+#js-copy-button {
+	background:none;
+	border: 2px #fff solid;
+	font-size:1em;
+	color: #fff;
+	font-family: 'Jura', sans-serif;
+
+	height: 32px;
+	font-size:18px;
+	
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#js-copy-button:hover {
+	background:none;
+	background-color: #fff;
+	color: #003C80;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	color: #fff;
+	opacity: 0.5;
+	text-align: center;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: #fff;
+	opacity: 0.5;
+	text-align: center;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: #fff;
+	opacity: 0.5;
+	text-align: center;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11*/
+	color: #fff;
+	opacity: 0.5;
+	text-align: center;
+}
